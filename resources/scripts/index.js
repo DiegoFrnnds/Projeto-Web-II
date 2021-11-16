@@ -1,10 +1,32 @@
 //Diego Fernandes Martinez
 
-//Prompt & alert & onload
-window.onload = function () {
-    namePrompt = window.prompt('Qual é o seu nome?');
-    if (namePrompt != null && namePrompt != '') {
-        alert('Bem vindo ' + namePrompt);
+//Prompt & alert & onload & setTimeout
+//window.onload = setTimeout(function () {
+//    namePrompt = window.prompt('Qual é o seu nome?');
+//    if (namePrompt != null && namePrompt != '') {
+  //      alert('Bem vindo(a) ' + namePrompt);
+    //}
+//}, 5000);
+
+//Confirm & setInterval
+//window.addEventListener('load', function () {
+  //  let x = setInterval(function () {
+    //var c = window.confirm('Para continuar a navegar neste site deve aceitar os cookies 🍪');
+   // if (c) {
+    //    clearInterval(x)
+    //}
+//}, 10000)
+//});
+
+//getElementById & charCode
+function verify(event) {
+    var x = event.charCode;
+    if (x == 13) {
+        var user = document.getElementById('name').value;
+        var pss = document.getElementById('password').value;
+        if (pss == '12345') {
+            alert('Bem vindo(a) de volta ' + user)
+        }
     }
 }
 
@@ -43,5 +65,12 @@ function showContent(id) {
                     <p>2015 - 2020</p>
                 </div>`
             );
+            break;
+        case 'cart':
+            cart.insertAdjacentHTML('beforeend',
+                `<div class="cart-content">
+                <p>Carrinho vazio</p>
+            </div>`
+            )
     }
 }

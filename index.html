@@ -6,102 +6,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="resources/scripts/index.js"></script>
     <link rel="stylesheet" href="resources/styles/reset.css">
     <link rel="stylesheet" href="resources/styles/style.css">
+    <script src="resources/scripts/index.js"></script>
     <title>Level Up - Loja</title>
 </head>
 
 <body>
     <header>
+        <input id='name' type="text" onfocus="this.value=''" value="Usuário">
+        <input id='password' type="text" onfocus="this.value=''" value="Senha (Dica: 1 a 5)" onkeypress="verify(event)">
         <h1>
             Level Up
-            <button class="loginbutton">Entrar</button>
+            <button id="cart" class="cart" onclick="showContent('cart');"><img src="resources/images/cart.png" alt="cart"></button>
         </h1>
+        
     </header>
     <nav>
-        <div id="categories" class="dropdown" onclick="showContent('categories');">
+        <div id="categories" class="dropdown" onmouseover="showContent('categories');">
             <button>
                 <p>Categorias</p>
             </button>
         </div>
-        <div id="platforms" class="dropdown" onclick="showContent('platforms');">
+        <div id="platforms" class="dropdown" onmouseover="showContent('platforms');">
             <button>
                 <p>Plataformas</p>
             </button>
         </div>
-        <div id="periods" class="dropdown" onclick="showContent('periods')">
+        <div id="periods" class="dropdown" onmouseover="showContent('periods')">
             <button>
                 <p>Épocas</p>
             </button>
         </div>
     </nav>
     <main>
+        
         <div class="center">
             <article>
                 <img src="resources/images/mario.png" alt="Mario">
-                <p>Mario</p>
-                <h2><strong>10</strong></h2>
+                <p>Super Mario Odyssey</p>
+                <h2><strong>R$10</strong></h2>
             </article>
             <article>
-                <img src="resources/images/mario.png" alt="Mario">
-                <p>Zelda</p>
-                <h2><strong>20</strong></h2>
+                <img src="resources/images/zelda.png" alt="Mario">
+                <p>Breath of the Wild</p>
+                <h2><strong>R$20</strong></h2>
             </article>
             <article>
-                <img src="resources/images/mario.png" alt="Mario">
-                <p>Metroid</p>
-                <h2><strong>20</strong></h2>
+                <img src="resources/images/metroid.png" alt="Mario">
+                <p>Metroid Prime 4</p>
+                <h2><strong>R$20</strong></h2>
             </article>
             <article>
-                <img src="resources/images/mario.png" alt="Mario">
-                <p>Halo</p>
-                <h2><strong>30</strong></h2>
+                <img src="resources/images/halo.png" alt="Mario">
+                <p>Halo Infinite</p>
+                <h2><strong>R$30</strong></h2>
             </article>
             <article>
-                <img src="resources/images/mario.png" alt="Mario">
+                <img src="resources/images/skyrim.png" alt="Mario">
                 <p>Skyrim</p>
-                <h2><strong>10</strong></h2>
+                <h2><strong>R$10</strong></h2>
             </article>
             <article>
-                <img src="resources/images/mario.png" alt="Mario">
-                <p>Zelda</p>
-                <h2><strong>20</strong></h2>
+                <img src="resources/images/ff.png" alt="Mario">
+                <p>Final Fantasy XV</p>
+                <h2><strong>R$20</strong></h2>
             </article>
             <article>
-                <img src="resources/images/mario.png" alt="Mario">
-                <p>Metroid</p>
-                <h2><strong>20</strong></h2>
+                <img src="resources/images/cod.png" alt="Mario">
+                <p>Call of Duty</p>
+                <h2><strong>R$20</strong></h2>
             </article>
             <article>
-                <img src="resources/images/mario.png" alt="Mario">
-                <p>Halo</p>
-                <h2><strong>30</strong></h2>
+                <img src="resources/images/bf.png" alt="Mario">
+                <p>Battlefield 1</p>
+                <h2><strong>R$30</strong></h2>
             </article>
             <article>
-                <img src="resources/images/mario.png" alt="Mario">
-                <p>Mario</p>
-                <h2><strong>10</strong></h2>
+                <img src="resources/images/fifa.png" alt="Mario">
+                <p>Fifa 2020</p>
+                <h2><strong>R$10</strong></h2>
             </article>
             <article>
-                <img src="resources/images/mario.png" alt="Mario">
-                <p>Zelda</p>
-                <h2><strong>20</strong></h2>
+                <img src="resources/images/nfs.png" alt="Mario">
+                <p>Need for Speed</p>
+                <h2><strong>R$20</strong></h2>
             </article>
             <article>
-                <img src="resources/images/mario.png" alt="Mario">
-                <p>Metroid</p>
-                <h2><strong>20</strong></h2>
+                <img src="resources/images/sonic.png" alt="Mario">
+                <p>Sonic Mania</p>
+                <h2><strong>R$20</strong></h2>
             </article>
             <article>
-                <img src="resources/images/mario.png" alt="Mario">
-                <p>Halo</p>
-                <h2><strong>30</strong></h2>
+                <img src="resources/images/crash.png" alt="Mario">
+                <p>Crash Trilogy</p>
+                <h2><strong>R$30</strong></h2>
             </article>
         </div>
     </main>
     <footer class="center">
         <p>Diego Fernandes Martinez</p>
+        <p>Dedicado à Dona Aldísia</p>
     </footer>
 </body>
 

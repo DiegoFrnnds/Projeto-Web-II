@@ -1,5 +1,6 @@
 html {
     font: 20px monospace;
+    max-width: 100%;
 }
 
 h1 {
@@ -17,17 +18,46 @@ p {
 header {
     background: rgb(61, 61, 61);
     color: white;
-    margin: 0 auto;
     padding: 20px 0 25px 0;
+    width: 100%;
 }
 
 header h1 {
     text-align: center;
+    width: 75%;
+}
+
+input {
+    display: table;
+    float: left;
+    margin: 10px 0 0 50px;
+    width: 12%;
 }
 
 h1 button {
     float: right;
-    margin: 11px 30px 0 0;
+    margin: 2px 30px 0 0;
+    background: rgb(61, 61, 61);
+    border: none;
+}
+
+.cart img {
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+    width: 40px;
+}
+
+.cart-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(250, 250, 250);
+    min-width: 180px;
+    z-index: 1;
+    right: 0;
+}
+
+.cart:hover .cart-content {
+    display: block;
 }
 
 .dropdown {
@@ -70,7 +100,8 @@ article {
     float: left;
     margin: 2% 1% 0 1%;
     border: 2px solid rgb(155, 155, 155);
-    padding: 2% 0 2% 0;
+    padding: 1.5% 0 1.5% 0;
+    display: block;
 }
 
 .center {
@@ -80,8 +111,10 @@ article {
 footer {
     display: inline-block;
     width: 100%;
-    margin: 10% 0 0 0;
-    padding: 10% 0 10% 0;
+    margin: 5% 0 0 0;
+    padding: 5% 0 5% 0;
     background: rgb(61, 61, 61);
     color: white;
 }
+
+footer p {margin: 0 0 1% 0}
