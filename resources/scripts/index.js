@@ -1,22 +1,22 @@
 //Diego Fernandes Martinez
 
 //Prompt & alert & onload & setTimeout
-//window.onload = setTimeout(function () {
-//    namePrompt = window.prompt('Qual é o seu nome?');
-//    if (namePrompt != null && namePrompt != '') {
-  //      alert('Bem vindo(a) ' + namePrompt);
-    //}
-//}, 5000);
+window.onload = setTimeout(function () {
+    namePrompt = window.prompt('Qual é o seu nome?');
+    if (namePrompt != null && namePrompt != '') {
+        alert('Bem vindo(a) ' + namePrompt);
+    }
+}, 5000);
 
 //Confirm & setInterval
-//window.addEventListener('load', function () {
-  //  let x = setInterval(function () {
-    //var c = window.confirm('Para continuar a navegar neste site deve aceitar os cookies 🍪');
-   // if (c) {
-    //    clearInterval(x)
-    //}
-//}, 10000)
-//});
+window.addEventListener('load', function () {
+    let x = setInterval(function () {
+    var c = window.confirm('Para continuar a navegar neste site deve aceitar os cookies 🍪');
+    if (c) {
+        clearInterval(x)
+    }
+}, 10000)
+});
 
 //getElementById & charCode
 function verify(event) {
