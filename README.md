@@ -1,6 +1,8 @@
 # Projeto-Web-II
 Desenvolvimento para Web II
 
+Explicação da implementação em texto no PDF
+
 # Checkist
 
 Caixas de Diálogo
