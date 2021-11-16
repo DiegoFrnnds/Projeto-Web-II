@@ -1,7 +1,7 @@
 # Projeto-Web-II
 Desenvolvimento para Web II
 
-Explicação da implementação em texto no PDF
+Explicação da implementação em texto no PDF https://github.com/DiegoFrnnds/Projeto-Web-II/blob/main/Explicacao%20da%20implementacao.pdf
 
 # Checkist
 
