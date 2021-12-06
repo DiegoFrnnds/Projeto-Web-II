@@ -2,7 +2,8 @@
 Desenvolvimento para Web II
 
 Explicação da implementação da Primeira Avaliação em texto no PDF: https://github.com/DiegoFrnnds/Projeto-Web-II/blob/main/Explicacao%20da%20implementacao.pdf
-Explicação da implementação da Segunda Avaliação em texto no PDF:
+
+Explicação da implementação da Segunda Avaliação em texto no PDF: https://github.com/DiegoFrnnds/Projeto-Web-II/blob/main/explicacao-da-implementacao-segunda-avaliacao.pdf
 
 # Checkist
 
