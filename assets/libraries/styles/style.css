@@ -92,7 +92,8 @@ nav.dropdown button {
 }
 
 article img {
-    width: 40%;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 article {

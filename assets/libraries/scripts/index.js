@@ -29,7 +29,6 @@ function verify(event) {
     if (x === 13) {
         // user declarado como var na 1ª avaliação
         const user = document.getElementById('name').value;
-        console.log(document.getElementById('form1').validity.patternMismatch);
         
         // pss declarado como var na 1ª avaliação
         const pss = document.getElementById('password').value;
@@ -44,11 +43,8 @@ function verify(event) {
 function showContent(id) {
     switch (id) {
         case 'categories': {
-            categories.innerHTML(
-                `<button>
-                    <p>Categorias</p>
-                </button>
-                <div class="dropdown-content">
+            categories.insertAdjacentHTML('beforeend',
+                `<div class="dropdown-content">
                     <p>Ação</p>
                     <p>Aventura</p>
                     <p>RPG</p>
