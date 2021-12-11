@@ -30,13 +30,13 @@ header h1 {
 input {
     display: table;
     float: left;
-    margin: 10px 0 0 50px;
+    margin: 10px 0 0 10px;
     width: 12%;
 }
 
-h1 button {
+.cart {
     float: right;
-    margin: 2px 30px 0 0;
+    margin: -40px 30px 0 0;
     background: rgb(61, 61, 61);
     border: none;
 }
