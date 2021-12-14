@@ -5,6 +5,8 @@ Explicação da implementação da Primeira Avaliação em texto no PDF: https:/
 
 Explicação da implementação da Segunda Avaliação em texto no PDF: https://github.com/DiegoFrnnds/Projeto-Web-II/blob/main/explicacao-da-implementacao-segunda-avaliacao.pdf
 
+Explicação da implementação da Terceira Avaliação em texto no PDF:
+
 # Checkist
 
 Caixas de Diálogo
@@ -100,9 +102,9 @@ jQuery
 
 Web Storage
 
-- [ ] LocalStorage ou SessionStorage
-- [ ] Leitura e escrita de dados simples
-- [ ] Leitura e escrita de JSON
+- [x] LocalStorage ou SessionStorage
+- [x] Leitura e escrita de dados simples
+- [x] Leitura e escrita de JSON
 
 Ajax com Backend
 
