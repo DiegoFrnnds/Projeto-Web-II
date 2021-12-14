@@ -1,6 +1,48 @@
 // Diego Fernandes Martinez
 'use strict';
 
+const $$ = function (id) {
+    return document.getElementById(id);
+};
+
+// Dropdown do Materialize
+document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, {
+        constrainWidth: false
+    });
+});
+
+// Três funções que utilizam storage
+(function () {
+    if (localStorage.users) {
+        let arrayUsers = JSON.parse(localStorage.users);
+        $$('loggedUser').insertAdjacentText('beforeend',
+            `${arrayUsers[arrayUsers.length - 1].name}`);
+    } else {
+        $$('loggedUser').insertAdjacentText('beforeend', 'Nenhum usuário logado');
+    }
+})();
+
+(function () {
+    if (localStorage.accessCounter) {
+        localStorage.accessCounter = parseInt(localStorage.accessCounter) + 1;
+        $$('accessCounter').insertAdjacentText('beforeend', `${localStorage.accessCounter}`);
+    } else {
+        localStorage.accessCounter = 1;
+    }
+})();
+
+(function () {
+    if (sessionStorage.reloadCounter) {
+        sessionStorage.reloadCounter = parseInt(sessionStorage.reloadCounter) + 1;
+        $$('reloadCounter').insertAdjacentText('beforeend', `${sessionStorage.reloadCounter}`);
+    } else {
+        sessionStorage.reloadCounter = 0;
+    }
+})();
+
+/* Comentado por causa dos pop-ups
 // Prompt & alert & onload & setTimeout
 window.onload = setTimeout(function () {
     const namePrompt = window.prompt('Qual é o seu nome?');
@@ -20,25 +62,9 @@ window.addEventListener('load', function () {
         if (c) clearInterval(x);
     }, 10000);
 });
+*/
 
-// getElementById & charCode
-function verify(event) {
-    // x declarado como var na 1ª avaliação
-    const x = event.charCode;
-
-    if (x === 13) {
-        // user declarado como var na 1ª avaliação
-        const user = document.getElementById('name').value;
-        
-        // pss declarado como var na 1ª avaliação
-        const pss = document.getElementById('password').value;
-
-        if (pss === '12345') {
-            alert(`Bem vindo(a) de volta ${user}`);
-        }
-    }
-}
-
+/* Substituído pelo dropdown do Materialize
 // Referenciar o DOM pelo id & função com nome & String Template
 function showContent(id) {
     switch (id) {
@@ -66,7 +92,7 @@ function showContent(id) {
             );
             break;
         }
-        case 'periods': {
+        case 'periods':
             periods.insertAdjacentHTML('beforeend',
                 `<div class="dropdown-content">
                     <p>1995 - 2000</p>
@@ -77,12 +103,6 @@ function showContent(id) {
                 </div>`
             );
             break;
-        }
-        case 'cart':
-            cart.insertAdjacentHTML('beforeend',
-                `<div class="cart-content">
-                <p>Carrinho vazio</p>
-            </div>`
-            );
     }
 }
+*/
