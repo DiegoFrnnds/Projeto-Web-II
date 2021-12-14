@@ -5,7 +5,7 @@ Explicação da implementação da Primeira Avaliação em texto no PDF: https:/
 
 Explicação da implementação da Segunda Avaliação em texto no PDF: https://github.com/DiegoFrnnds/Projeto-Web-II/blob/main/explicacao-da-implementacao-segunda-avaliacao.pdf
 
-Explicação da implementação da Terceira Avaliação em texto no PDF:
+Explicação da implementação da Terceira Avaliação em texto no PDF: https://github.com/DiegoFrnnds/Projeto-Web-II/blob/main/explicacao-da-implementacao-terceira-avaliacao.pdf
 
 # Checkist
 
