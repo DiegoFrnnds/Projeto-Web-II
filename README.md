@@ -1,13 +1,13 @@
-# Projeto-Web-II
-Desenvolvimento para Web II
+# Projeto-Web-II 
+Desenvolvimento para Web II / Web Development II
 
-Explicação da implementação da Primeira Avaliação em texto no PDF: https://github.com/DiegoFrnnds/Projeto-Web-II/blob/main/Explicacao%20da%20implementacao.pdf
+Explicação da implementação da Primeira Avaliação no PDF / Explanation of the implementation of the First Test on PDF (Portuguese only): https://github.com/DiegoFrnnds/Projeto-Web-II/blob/main/Explicacao%20da%20implementacao.pdf
 
-Explicação da implementação da Segunda Avaliação em texto no PDF: https://github.com/DiegoFrnnds/Projeto-Web-II/blob/main/explicacao-da-implementacao-segunda-avaliacao.pdf
+Explicação da implementação da Segunda Avaliação no PDF / Explanation of the implementation of the Second Test on PDF (Portuguese only): https://github.com/DiegoFrnnds/Projeto-Web-II/blob/main/explicacao-da-implementacao-segunda-avaliacao.pdf
 
-Explicação da implementação da Terceira Avaliação em texto no PDF: https://github.com/DiegoFrnnds/Projeto-Web-II/blob/main/explicacao-da-implementacao-terceira-avaliacao.pdf
+Explicação da implementação da Terceira Avaliação no PDF / Explanation of the implementation of the Third Test on PDF (Portuguese only): https://github.com/DiegoFrnnds/Projeto-Web-II/blob/main/explicacao-da-implementacao-terceira-avaliacao.pdf
 
-# Checkist
+# Checklist
 
 Caixas de Diálogo
 
